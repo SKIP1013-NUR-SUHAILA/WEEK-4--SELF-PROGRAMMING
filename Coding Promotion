@@ -1,0 +1,18 @@
+package selfProgramming;
+
+class Promotion {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int count = 12;
+		double calc = 12.45; //I TRY FLOAT AT HERE BUT ERROR. WHY?
+		double sum = 49.27, result;
+		result = sum / (count + calc);
+		
+		System.out.print(result); // the accurate value is print
+		System.out.printf("\n%.2f",result); // the output with only 2 d.p
+		System.out.printf("\n%3.2f",result); // the number 3 in front of the {.} indicate have 3 nilai tempat.
+		
+	}
+
+}
