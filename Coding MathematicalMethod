@@ -1,0 +1,45 @@
+package selfProgramming;
+
+class MathematicalMethod {
+
+	public static void main(String[] args) {
+		// dekat type boleh assume siap2 nilai..macam x=4, y=8..
+		//then dekat process jadi  Math.sqrt(x).. lastly, it will print the output as 2.0.. 
+		
+		double x, y, square, power, exp, log, sin, cos, tan, round, min, max;
+		
+		// declare class scanner mesti before ayat order..then baru syntax for user to input data.
+		java.util.Scanner scan = new java.util.Scanner (System.in);
+		
+		System.out.print("Please enter the value that you want for x : "); //using user input step
+		x = scan.nextDouble();
+		System.out.print("Please enter the value that you want for y : ");
+		y = scan.nextDouble();
+		
+		square = Math.sqrt(x);
+		power = Math.pow(x, y);
+		exp = Math.exp(x);
+		log = Math.log(y);
+		sin = Math.sin(x);
+		cos = Math.cos(x);
+		tan = Math.tan(x);
+		round = Math.round(x);
+		min = Math.min(x, y);
+		max = Math.max(x, y);
+		
+				
+		System.out.printf("%.5f",square); //the accurate d.p
+		System.out.printf("\n%.2f",exp);
+		System.out.printf("\n%10.2f",power);
+		System.out.printf("\n%.5f",sin);
+		System.out.printf("\n%.5f",cos);
+		System.out.printf("\n%.5f",tan);
+		System.out.println("\n" + min);
+		System.out.println(max);
+		System.out.println(round); //MMG DI AKN AMBIK YANG MAX KA??
+		System.out.println(log);
+		
+		
+	}
+
+}
