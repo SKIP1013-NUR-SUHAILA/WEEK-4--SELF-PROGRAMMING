@@ -1,0 +1,19 @@
+package selfProgramming; //WHEN TO USE THIS TYPE OF DATA CONVERSATIO????
+
+class AssignmentConversation {
+
+	public static void main(String[] args) {
+		//data type for variable
+		int dollar = 20; 
+		float money = dollar; 
+		double bank = money; 
+							
+							
+		//output
+		System.out.println(money); // if print dollar, output 20 
+									//if print money, output 20.0
+		System.out.println("");
+									
+	}
+
+}
