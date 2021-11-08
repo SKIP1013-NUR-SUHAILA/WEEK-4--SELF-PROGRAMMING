@@ -1,0 +1,24 @@
+package selfProgramming;
+
+class IntegerReminder {
+
+	public static void main(String[] args) {
+		// input
+		int x = 14, y = 218, z= 45, a= 2, b= 8, c= 11, re1, re2, re3, re4, re5, re6;
+		
+		re1 = x % 4;
+		re2 = y % 5;
+		re3 = z % 6;
+		re4 = a % 2;
+		re5 = b % 20;
+		re6 = c % 1;
+		
+		System.out.println(re1); 
+		System.out.println(re2); 
+		System.out.print(re3); 
+		System.out.println(re4); 
+		System.out.println(re5); 
+		System.out.println(re6);
+	}
+
+}
